@@ -1,0 +1,22 @@
+*{
+    background-color: #fff;
+}
+
+
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* แยก Content ซ้าย - ขวา สุด */
+    align-items: center; /* ตรงกลาง บน-ล่าง */
+    padding: 10px 0;
+}
+
+.menu a{
+    color: #000;
+    font-size: .9rem;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+

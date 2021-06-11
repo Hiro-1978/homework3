@@ -1,0 +1,61 @@
+.container{
+    max-width: auto;
+    margin: 0 auto;
+}
+   
+.nav{
+    position: absolute;
+    }
+
+.nav .container{
+    display: flex;
+    /*background-color: red;*/
+    justify-content: space-between; /* แยก Content ซ้าย - ขวา สุด */
+    align-items: center; /* ตรงกลาง บน-ล่าง */
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color: #fff;
+    background-color: darkgrey;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 0 .1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .active{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav .active a{
+    color: #000;
+}
+
+.nav .active .container{
+    padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover{
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.nav input{
+    color: darkgrey;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 0 .1rem;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,10 @@
+.ft{
+height: 10vh;
+font-size: 1.5rem;
+font-weight: 300;
+color: #fff;
+background-color: darkgray;
+text-align: center;
+text-transform: capitalize;
+padding-top: 2.5rem;
+}

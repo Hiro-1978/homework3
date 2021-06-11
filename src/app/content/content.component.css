@@ -1,0 +1,32 @@
+
+.section-heading{
+    font-size: 6rem;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .5rem;
+    text-shadow: .3rem .3rem .3rem #000;
+}
+
+.section-3{
+    padding: 1rem 0;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.pic{
+    position: relative;
+    margin: 4rem 1rem;
+}
+
+.mobile-img{
+    width: 15vw;
+    height: 30vw;
+}
